@@ -1,38 +1,202 @@
 .App {
   text-align: center;
+  background: rgb(86,113,137);
+  background: linear-gradient(47deg, rgba(86,113,137,0.9866071428571429) 34%, rgba(207,185,151,1) 65%);  height: 150vh;
+  background-size: cover;
+  height: 250vh;
+  margin: 0;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info{
+  width: 530px; 
+  height: 170px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  margin-bottom: 20px;
+  padding-top: 1px;
+  padding-bottom: 8px;
+  line-height: 17px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.info img{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 45px;
+}
+h2{
+  font-family: 'Poppins', sans-serif;
+  color: #047d93;
 }
 
-.App-link {
-  color: #61dafb;
+.info p{
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+  left: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p span{
+  font-family: 'Poppins', sans-serif;
+  color: #3A4F7A;
+  font-weight: bold;
+}
+  
+#delete{
+  background: none;
+  border: none;
+}
+
+h1{
+  position: relative;
+  text-align: center;
+  top: 40px;
+  font-family: 'Roboto';
+  color: rgb(54, 114, 136);
+  margin-top: 0;
+  font-size: 50px;
+}
+
+button .trash-icon{
+  width: 30px;
+  height: 80px;
+  color: #ee3c3c;
+  position: absolute;
+  top: 60px;
+  left: 450px;
+}
+
+.New{
+  width: 68px;
+  height: 53px;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 130, 36);
+  border: none;
+  border-radius: 7px;
+  position: relative;
+  top: 38px;
+  right: 50px;
+  text-align: center;
+  line-height: 12px;
+}
+
+#search{
+  border-radius: 5px;
+  width: 509px;
+  height: 30px;
+  margin-right: -27px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 10px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  top: 30px;
+  right: 12px;
+}
+.Trier{
+  width: 68px;
+  height: 50px;
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 130, 36);
+  border: none;
+  border-radius: 7px;
+  position: relative;
+  top: 33px;
+  left: 50px;
+  text-align: center;
+  line-height: 12px;
+}
+
+#Form-title{
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #047d93;
+}
+
+.FormContact{
+  width: 700px; 
+  height: 325px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  margin-bottom: 40px;
+  padding-top: 25px;
+  padding-bottom: 20px;  
+}
+
+.FormContact input{
+  width: 400px;
+  height: 30px;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+  padding: 10px;
+  color: #111111;
+  border-radius: 5px;
+  position: relative;
+  left: 30px;
+}
+
+.FormContact label{
+  position: absolute;
+  left: 25px;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  color: #3A4F7A;
+  font-weight: bold;
+}
+
+.Ajouter{
+  width: 150px;
+  height: 55px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 130, 36);
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  right: 30px;
+}
+
+.Cancel{
+  width: 150px;
+  height: 55px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 130, 36);
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  left: 90px;
+}
+
+.form-input{
+  margin-bottom: 10px;
 }
