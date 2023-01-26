@@ -42,7 +42,7 @@ export default function Contacts() {
           const {Nom, Téléphone, Email, ville} = element;
           return (
           <div className='info'>
-            <img src="user.png" alt="user" />
+            <img src="gestion-contacts/user.png" alt="user" />
             <h2>{Nom}</h2>
             <p><span>Téléphone :&nbsp;</span>{Téléphone}</p>
             <p><span>Email : &nbsp;</span> {Email}</p>

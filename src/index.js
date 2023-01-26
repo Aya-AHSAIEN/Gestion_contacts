@@ -11,7 +11,7 @@ config.autoAddCss = false;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='gestion-contacts'>
       <App />
     </BrowserRouter>
   </React.StrictMode>
