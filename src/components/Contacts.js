@@ -44,9 +44,9 @@ export default function Contacts() {
           <div className='info'>
             <img src="user.png" alt="user" />
             <h2>{Nom}</h2>
-            <p><span>Téléphone :</span>{Téléphone}</p>
-            <p><span>Email : </span> {Email}</p>
-            <p><span>Ville : </span> {ville}</p>
+            <p><span>Téléphone :&nbsp;</span>{Téléphone}</p>
+            <p><span>Email : &nbsp;</span> {Email}</p>
+            <p><span>Ville : &nbsp;</span> {ville}</p>
             <button id='delete' onClick={() => deleteContact(index)}><FontAwesomeIcon className="trash-icon" icon={faTrash} /></button>
             <br />
           </div>

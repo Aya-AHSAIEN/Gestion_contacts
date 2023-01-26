@@ -54,7 +54,7 @@ export default function FormContact() {
         </div>
         <br />
         <button onClick={addContact} className='Ajouter'>Ajouter</button>
-        <button onClick={Cancel} className='Cancel'>Cancel</button>
+        <button onClick={Cancel} className='Cancel'>Annuler</button>
 
       </form>
     </div>
